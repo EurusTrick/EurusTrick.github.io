@@ -6,7 +6,7 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './work-experience.component.html',
-  styleUrl: './work-experience.component.css'
+  styleUrl: './work-experience.component.css' 
 })
 
 export class WorkExperienceComponent {
