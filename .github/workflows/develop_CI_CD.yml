@@ -38,7 +38,7 @@ jobs:
           docker cp dist/mycv/browser/. serving_base:/usr/local/apache2/htdocs
       - name: list container
         run : |
-          docker exect serving_base ls -la /usr/local/apache2/htdocs
+          docker exec serving_base ls -la /usr/local/apache2/htdocs
           
       - name : Build the custom Docker image
         run : docker commit --change "ENV MODEL_NAME ${{secrets.MODEL_NAME}}" 
