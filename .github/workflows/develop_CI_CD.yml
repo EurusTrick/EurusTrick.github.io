@@ -29,7 +29,7 @@ jobs:
           ls -la dist/mycv/browser
       - name: download, run httpd image, container name serving base
         run : |
-          docker run -d --name serving_base htppd
+          docker run -d --name serving_base httpd
       - name : docker ps
         run : |
           docker ps
