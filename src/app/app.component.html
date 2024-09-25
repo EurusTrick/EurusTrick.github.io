@@ -19,14 +19,20 @@
             <app-skills></app-skills>
         </td>
         <td>
-            <app-languages></app-languages>
-            <app-interests></app-interests> 
+            <div style="display: flex; justify-content: space-between;">
+                <div style="flex: 1; margin-right: 10px;">
+                    <app-languages></app-languages>
+                </div>
+                <div style="flex: 1;">
+                    <app-interests></app-interests>
+                </div>
+            </div>
         </td>
     </tr>
 
     <tr>
         <td colspan="2">
-            espacio para achievements
+            <app-achievements></app-achievements>
         </td>
     </tr>
 </table>
