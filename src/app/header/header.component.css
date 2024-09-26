@@ -1,0 +1,45 @@
+/* Estilo general del cuerpo de la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Elimina los bordes duplicados */
+    background-color: #E9F1FA; /* Fondo azul oscuro clásico */
+}
+
+/* Estilo para celdas de tabla */
+td {
+    padding: 20px; /* Espaciado interno */
+    color: #0A1828; /* Color de texto turquesa */
+}
+
+/* Estilo para los títulos */
+h3 {
+    color: #BFA181; /* Color dorado para títulos */
+    margin-bottom: 10px; /* Espaciado inferior */
+}
+
+/* Estilo para las listas */
+ul {
+    list-style-type: none; /* Elimina viñetas por defecto */
+    padding: 0; /* Elimina espaciado por defecto */
+}
+
+/* Estilo para los elementos de la lista */
+li {
+    display: flex; /* Para alinear íconos y texto */
+    align-items: center; /* Centra verticalmente */
+    margin-bottom: 10px; /* Espaciado entre elementos de lista */
+}
+
+/* Estilo para los íconos */
+li i {
+    color: #BFA181; /* Color dorado para los íconos */
+    margin-right: 10px; /* Espaciado a la derecha del ícono */
+}
+
+/* Estilo para la imagen del perfil */
+img {
+    border-radius: 50%; /* Crea un efecto de óvalo */
+    width: 120px; /* Ajusta el tamaño según lo necesites */
+    height: 150px; /* Ajusta el tamaño según lo necesites */
+    border: 2px solid #BFA181; /* Añade un borde dorado */
+}

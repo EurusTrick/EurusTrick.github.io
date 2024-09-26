@@ -1,0 +1,43 @@
+/* Estilo general del cuerpo de la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Elimina los bordes duplicados */
+    background-color: #E9F1FA; /* Fondo azul oscuro clásico */
+}
+
+/* Estilo para el título de intereses */
+h3 {
+    color: #0A1828; /* Color dorado para títulos */
+    margin-bottom: 10px; /* Espaciado inferior */
+    text-align: left; /* Alineación del título */
+}
+
+/* Estilo para la lista de intereses */
+ul {
+    list-style-type: none; /* Elimina viñetas por defecto */
+    padding: 0; /* Elimina espaciado por defecto */
+}
+
+/* Estilo para cada interés */
+li {
+    display: flex; /* Para alinear viñetas y texto */
+    align-items: center; /* Centra verticalmente */
+    margin-bottom: 15px; /* Espaciado entre elementos de lista */
+    color: #178582; /* Color de texto turquesa */
+}
+
+/* Estilo para la viñeta */
+.interest-bullet {
+    display: inline-block;
+    width: 8px; /* Ancho de la viñeta */
+    height: 8px; /* Alto de la viñeta */
+    background-color: #BFA181; /* Color dorado para la viñeta */
+    border-radius: 50%; /* Hace la viñeta redonda */
+    margin-right: 10px; /* Espaciado a la derecha de la viñeta */
+}
+
+/* Estilo para el ícono del título */
+.icon {
+    margin-right: 8px; /* Espaciado a la derecha del ícono */
+    color: #BFA181; /* Color dorado para el ícono */
+}
