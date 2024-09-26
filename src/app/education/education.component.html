@@ -1,12 +1,16 @@
-<h3>Education</h3>
-
-<table border="0">
+<table>
+    <h3>Educacion</h3>
     <ul *ngFor="let edu of education">
         <li>
             <tr>
-                <td>{{ edu.fecha}}</td>
-                <td>{{ edu.faculty}}</td>
-                <td>{{ edu.university}}</td>
+                <td>
+                    <span class="educacion-dorada">
+                        <i class="fas fa-user-graduate"></i> 
+                        {{ edu.fecha }}
+                    </span><br>
+                    {{ edu.faculty }}<br>
+                    {{ edu.university }}
+                </td>
             </tr>
         </li>
     </ul>

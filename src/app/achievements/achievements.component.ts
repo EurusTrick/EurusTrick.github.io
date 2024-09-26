@@ -22,7 +22,22 @@ export class AchievementsComponent {
       description: 'Certificación obtenida en 2023 en gestión de proyectos.',
     };
 
-    this.achievements.push(achievement1, achievement2);
+    let achievement3 = {
+      title: 'Desarrollo de una aplicación de inscripción de alumnos',
+      description: 'Implementación de una solución completa utilizando Django y React para una secundaria.',
+    };
+
+    let achievement4 = {
+      title: 'Contribución a un proyecto de código abierto',
+      description: 'Colaboración en un proyecto de software de código abierto en GitHub.',
+    };
+
+    let achievement5 = {
+      title: 'Participación en Hackathon Regional 2023',
+      description: 'Ganador del primer lugar en un hackathon por un proyecto de IA.',
+    };
+
+    this.achievements.push(achievement1, achievement2, achievement3, achievement4, achievement5);
     console.log(this.achievements);
   }
 }
