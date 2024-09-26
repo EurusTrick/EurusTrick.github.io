@@ -1,0 +1,15 @@
+<table>
+    <tr>
+        <td>
+            <h3>
+                <span class="icon"><i class="fas fa-trophy"></i></span> Logros
+            </h3>
+            <ul>
+                <li *ngFor="let achievement of achievements">
+                    <span class="achievement-bullet"></span> <!-- Viñeta para cada logro -->
+                    <strong>{{ achievement.title }}</strong>: {{ achievement.description }}
+                </li>
+            </ul>
+        </td>
+    </tr>
+</table>

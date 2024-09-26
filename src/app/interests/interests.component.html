@@ -1,0 +1,15 @@
+<table>
+    <tr>
+        <td>
+            <h3>
+                <span class="icon"><i class="fas fa-heart"></i></span> Intereses
+            </h3>
+            <ul>
+                <li *ngFor="let interest of interests">
+                    <span class="interest-bullet"></span> <!-- Viñeta para cada interés -->
+                    {{ interest }}
+                </li>
+            </ul>
+        </td>
+    </tr>
+</table>

@@ -1,0 +1,43 @@
+/* Estilo general del cuerpo de la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Elimina los bordes duplicados */
+    background-color: #E9F1FA; /* Fondo azul oscuro clásico */
+}
+
+/* Estilo para celdas de tabla */
+td {
+    padding: 20px; /* Espaciado interno */
+    color: #178582; /* Color de texto turquesa */
+}
+
+/* Estilo para los títulos */
+h3 {
+    color: #0A1828; /* Color dorado para títulos */
+    margin-bottom: 10px; /* Espaciado inferior */
+}
+
+/* Estilo específico para la fecha en dorado */
+.educacion-dorada {
+    color: #0A1828; /* Color dorado */
+    font-weight: bold; /* Negritas */
+    display: flex; /* Para alinear el ícono con el texto */
+    align-items: center; /* Centra verticalmente el ícono */
+}
+
+/* Estilo para el ícono */
+.educacion-dorada i {
+    margin-right: 8px; /* Espacio entre el ícono y la fecha */
+    color: #BFA181; /* Mismo color dorado para el ícono */
+}
+
+/* Estilo para los elementos de la lista */
+ul {
+    list-style-type: none; /* Elimina viñetas por defecto */
+    padding: 0; /* Elimina espaciado por defecto */
+}
+
+/* Espaciado entre los elementos de la lista */
+li {
+    margin-bottom: 15px; /* Espaciado entre los elementos de la lista */
+}
