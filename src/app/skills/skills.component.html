@@ -1,0 +1,15 @@
+<table>
+    <h3>Habilidades</h3>
+    <tr>
+        <td>
+            <ul>
+                <li *ngFor="let skill of skills">
+                    <span class="skill-icon">
+                        <i [ngClass]="getIcon(skill)"></i> <!-- Ícono dinámico según la habilidad -->
+                    </span>
+                    {{ skill }}
+                </li>
+            </ul>
+        </td>
+    </tr>
+</table>

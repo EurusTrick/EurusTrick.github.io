@@ -1,0 +1,73 @@
+/* Tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #E9F1FA; 
+    margin-bottom: 20px; 
+}
+
+/* Celdas de la tabla */
+td {
+    padding: 10px; 
+    color: #178582; 
+    vertical-align: top; 
+}
+
+/* Títulos */
+h3 {
+    color: #0A1828; 
+    margin-bottom: 10px;
+    text-align: left; 
+}
+
+/* Listas de experiencia */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Elementos de la lista de logros */
+li {
+    margin-bottom: 10px; 
+    color: #BFA181; 
+}
+
+/* Celdas que contienen las fechas y ubicaciones */
+td:first-child {
+    font-weight: bold;
+}
+
+/* Descripciones de logros */
+ul li td {
+    padding-left: 20px;
+    color: #178582; 
+}
+
+/* Iconos de logros */
+li i {
+    color: #BFA181;
+    margin-right: 10px;
+}
+
+
+
+.fecha-dorada {
+    color: #0A1828; 
+    font-weight: bold; 
+    display: flex; 
+    align-items: center; 
+}
+
+/* Icono */
+.fecha-dorada i {
+    margin-right: 8px; 
+    color: #0A1828; 
+}
+
+
+/* Palabra logros */
+.logros-dorados {
+    color: #0A1828; 
+    font-weight: bold; 
+}

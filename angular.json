@@ -27,7 +27,8 @@
               }
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/@fortawesome/fontawesome-free/css/all.css"
             ],
             "scripts": []
           },
@@ -87,10 +88,16 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [],
+            "karmaConfig": "karma.conf.js"
           }
         }
       }
     }
+  },
+  "cli": {
+    
+    "analytics": "fc53b265-1620-457d-803d-56d1a066f2b0"
+
   }
 }
