@@ -8,7 +8,6 @@ import { CommonModule } from "@angular/common";
   templateUrl: './education.component.html',
   styleUrl: './education.component.css',
 })
-
 export class EducationComponent {
   education: Array<any> = [];
 
@@ -27,8 +26,15 @@ export class EducationComponent {
       university: "Universidad Veracruzana",
     };
 
+    let education3 = {
+      fecha: "2017-2020",
+      faculty: "Contabilidad",
+      university: "CETEC",
+    };
+
     this.education.push(education1);
     this.education.push(education2);
+    this.education.push(education3);
     console.log(this.education);
   }
 }

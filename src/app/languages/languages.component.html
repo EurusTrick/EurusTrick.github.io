@@ -1,6 +1,15 @@
-<h3>Idiomas</h3>
-<ul>
-    <li *ngFor="let language of languages">
-        {{ language.name }} - {{ language.level }}
-    </li>
-</ul>
+<table>
+    <tr>
+        <td>
+            <h3>
+                <span class="icon"><i class="fas fa-language"></i></span> Idiomas
+            </h3>
+            <ul>
+                <li *ngFor="let language of languages">
+                    <span class="language-bullet"></span> <!-- Viñeta para cada idioma -->
+                    {{ language.name }} - {{ language.level }}
+                </li>
+            </ul>
+        </td>
+    </tr>
+</table>
