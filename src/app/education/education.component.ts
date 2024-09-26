@@ -8,6 +8,7 @@ import { CommonModule } from "@angular/common";
   templateUrl: './education.component.html',
   styleUrl: './education.component.css',
 })
+
 export class EducationComponent {
   education: Array<any> = [];
 

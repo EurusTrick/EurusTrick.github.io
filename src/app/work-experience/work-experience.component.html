@@ -1,3 +1,4 @@
+
 <table>
     <h3>Experiencia laboral</h3>
     <ul *ngFor="let work of workExperience">
@@ -9,6 +10,7 @@
                         {{work.fecha}}
                     </span>
                 </td>
+
                 <td> {{work.ubicacion}} </td>
             </tr>
 
@@ -23,6 +25,7 @@
             </tr>
 
             <tr>
+
                 <td>
                     <span class="logros-dorados">Logros</span>
                 </td>
@@ -30,11 +33,14 @@
 
             <ul *ngFor="let logro of work.logros">
                 <li>
+
                     <tr>
                         <td>{{logro.descripcion}}</td>
                     </tr>
                 </li>
             </ul>
         </li>
+
     </ul>
+
 </table>
