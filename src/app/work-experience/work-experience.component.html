@@ -1,11 +1,16 @@
-<h3>Experiencia Laboral</h3>
 
-<table border="0">
-
+<table>
+    <h3>Experiencia laboral</h3>
     <ul *ngFor="let work of workExperience">
         <li>
             <tr>
-                <td> {{work.fecha}} </td>
+                <td> 
+                    <span class="fecha-dorada">
+                        <i class="fas fa-briefcase"></i>
+                        {{work.fecha}}
+                    </span>
+                </td>
+
                 <td> {{work.ubicacion}} </td>
             </tr>
 
@@ -20,7 +25,10 @@
             </tr>
 
             <tr>
-                <td> logros </td>
+
+                <td>
+                    <span class="logros-dorados">Logros</span>
+                </td>
             </tr>
 
             <ul *ngFor="let logro of work.logros">
@@ -32,5 +40,7 @@
                 </li>
             </ul>
         </li>
-    </ul>
+
+    </ul>
+
 </table>
